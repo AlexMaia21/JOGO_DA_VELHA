@@ -20,6 +20,7 @@
 			display: grid;
 			grid-template-columns: 1fr 1fr 1fr;
 			grid-template-rows: 1fr 1fr 1fr;
+			margin: 15px 0;
 		}
 
 		div.casa {
@@ -60,6 +61,18 @@
 		div.c6 {border-right: none;}
 		div.c2 {border-top: none;}
 		div.c8 {border-bottom: none;}
+
+		button#btnReiniciar {
+			border: none;
+			border-radius: 8px;
+			padding: 10px 20px;
+			margin: 10px 0;
+			background: transparent;
+			box-shadow: 1px 1px 5px black;
+			cursor: pointer;
+			font-weight: bold;
+			text-transform: uppercase;
+		}
 
 		@media (max-width: 767.98px) {
 			section {
